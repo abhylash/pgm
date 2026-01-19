@@ -1,0 +1,81 @@
+🔥 How Your Friend Runs Your Full-Stack Lab From GitHub
+Step 1 – Clone
+git clone https://github.com/abhylash/pgm.git
+cd pgm
+
+PROGRAM-WISE RUN GUIDE
+Program 1 – Node Express
+cd program1
+npm install
+node index.js
+
+
+Open → http://localhost:3000
+
+Program 2 – Docker
+cd program2
+docker build -t program2 .
+docker run -p 3000:3000 program2
+
+Program 3 – React Resume
+cd program3
+npm install
+npm start
+
+Program 4 – Student Portal
+cd program4
+npm install
+npm start
+
+Program 5 – Form Validation
+cd program5
+npm install
+npm start
+
+Program 6 – Inventory Full Stack
+
+Backend:
+
+cd program6/program6-backend
+npm install
+node myinventory.js
+
+
+Frontend (new terminal):
+
+cd program6/program6-frontend
+npm install
+npm start
+
+Program 7 – MongoDB Queries
+mongosh
+
+
+Paste commands from:
+
+program7/program7_mongodb_queries.txt
+
+Program 8 – MongoDB Aggregation
+mongosh
+
+
+Paste Program 8 commands.
+
+Program 9 – REST API Employee
+
+Backend:
+
+cd program9/employee-api
+npx json-server --watch db.json --port 5000
+
+
+Frontend:
+
+cd program9/employee-client
+npm install
+npm start
+
+Program 10 – React Router
+cd program10/multi-page-app
+npm install
+npm start
